@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@master
       - name: Install
         run: npm install
-      - name: build
+      - name: Build
         run: npm run build
       - uses: jakejarvis/s3-sync-action@master
         with:
